@@ -42,11 +42,6 @@ function calculateFinalScore(obj) {
 // =====================================================
 
 const result = calculateFinalScore(
-    {
-        name: "Rajib",
-        testScore: 45,
-        schoolGrade: 10,
-        isFFamily : true
-     }
+    { name: "Rajib", testScore: 15,  schoolGrade: 25, isFFamily : true  }
 );
 console.log(result);
